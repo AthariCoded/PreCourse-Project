@@ -104,7 +104,7 @@ function largestIncrement(numbers) {
   return newArr[(newArr.length)-1];
 }
 
- console.log(largestIncrement([11, 35, 52, 14, 56, 601, 777, 888, 999]));
+ //console.log(largestIncrement([11, 35, 52, 14, 56, 601, 777, 888, 999]));
 
 /**
  * afterX(numbers, x):
