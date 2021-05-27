@@ -98,9 +98,9 @@ function differences(numbers) {
  */
 function largestIncrement(numbers) {
   let newArr = differences(numbers);
-  console.log(newArr);
+  
   newArr= newArr.sort((a,b) => a-b);
-  console.log(newArr);
+  
   return newArr[(newArr.length)-1];
 }
 
